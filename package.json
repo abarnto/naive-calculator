@@ -1,0 +1,19 @@
+{
+  "name": "naive-calculator",
+  "description": "A naive package exposing simple maths operations",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abarnto/naive-calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abarnto/naive-calculator.git/issues"
+  },
+  "scripts": {
+    "calculate": "node index.js"
+  },
+  "homepage": "https://github.com/abarnto/naive-calculator",
+  "author": "Antonio Barile <barileantonio93@gmail.com>",
+  "license": "MIT"
+}
