@@ -12,7 +12,7 @@
     "url": "https://github.com/abarnto/naive-calculator.git/issues"
   },
   "scripts": {
-    "calculate": "node index.js"
+    "calculate": "node cli.js"
   },
   "homepage": "https://github.com/abarnto/naive-calculator",
   "author": "Antonio Barile <barileantonio93@gmail.com>",
