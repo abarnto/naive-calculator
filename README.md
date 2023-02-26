@@ -32,7 +32,7 @@ yarn add naive-calculator
 const calculator = require("naive-calculator");
 // ...
 const sum = calculator.sum(1, 2, 3);
-const difference = calculator.substraction(1, 2, 3);
+const difference = calculator.substract(1, 2, 3);
 const product = calculator.multiply(1, 2, 3);
 const { quotient, remainder } = calculator.divide(10, 3);
 ```
@@ -52,5 +52,5 @@ yarn test
 For *coverage report* run:
 
 ```sh
-yarn test --coverage-repost=html
+yarn test --coverage-report=html
 ```

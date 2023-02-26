@@ -1,6 +1,6 @@
 {
   "name": "naive-calculator",
-  "description": "A naive package exposing simple maths operations",
+  "description": "A naive package exposing simple math operations.",
   "version": "0.0.3",
   "main": "./lib/main.js",
   "types": "./lib/main.d.ts",
