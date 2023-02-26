@@ -9,6 +9,7 @@ Obviously, this package is not intended for usage! Stick with JS for this kind o
 It's just personal training on some basic stuff, like:
 - setup an NPM module
 - execute commands via CLI
+- practice with [node-tap](https://github.com/tapjs/node-tap)
 
 ---
 
@@ -38,4 +39,18 @@ const { quotient, remainder } = calculator.divide(10, 3);
 ### Via CLI
 ```sh
 yarn calculate [sum |  substraction |  multiply |  divide] 1 2 3
+```
+
+## Tests
+
+Run all tests with:
+
+```sh
+yarn test
+```
+
+For *coverage report* run:
+
+```sh
+yarn test --coverage-repost=html
 ```

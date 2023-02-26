@@ -12,9 +12,13 @@
     "url": "https://github.com/abarnto/naive-calculator.git/issues"
   },
   "scripts": {
-    "calculate": "node cli.js"
+    "calculate": "node cli.js",
+    "test": "tap"
   },
   "homepage": "https://github.com/abarnto/naive-calculator",
   "author": "Antonio Barile <barileantonio93@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tap": "^16.3.4"
+  }
 }
